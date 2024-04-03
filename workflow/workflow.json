@@ -1,0 +1,43 @@
+{
+	"script_prefix": "script/",
+	"target": {
+		"01.qc.trimmomatic.sh": {
+			"mark_as_done": false
+		},
+		"02.assembly.spades.sh": {
+			"mark_as_done": false,
+			"dependency": "01.qc.trimmomatic.sh"
+		},
+		"03.mapping.sh": {
+			"mark_as_done": false,
+			"dependency": "02.assembly.spades.sh"
+		},
+		"04.quast.sh": {
+			"mark_as_done": false,
+			"dependency": "03.mapping.sh"
+		},
+		"05.gene_calling.sh": {
+			"mark_as_done": false,
+			"dependency": "02.assembly.spades.sh"
+		},
+		"06.annotation.blastp.sh": {
+			"mark_as_done": false,
+			"dependency": "05.gene_calling.sh"
+		},
+		"07.annotation.kofamscan.sh": {
+			"mark_as_done": false,
+			"dependency": "05.gene_calling.sh"
+		},
+		"08.analysis.rpkm.sh": {
+			"mark_as_done": false,
+			"dependency": [
+				"03.mapping.sh",
+				"05.gene_calling.sh"
+			]
+		},
+		"09.analysis.kaiju.sh": {
+			"mark_as_done": false,
+			"dependency": "03.mapping.sh"
+		}
+	}
+}

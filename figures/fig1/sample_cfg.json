@@ -1,0 +1,32 @@
+{
+	"DU": {
+		"full_name": "Durham",
+		"category": "EBPR",
+		"color": "#5c85d1"
+	},
+	"HD": {
+		"full_name": "Henderson",
+		"category": "S2EBPR",
+		"color": "#8a18db"
+	},
+	"MD": {
+		"full_name": "Meriden",
+		"category": "EBPR",
+		"color": "#5c85d1"
+	},
+	"SC": {
+		"full_name": "South Cary",
+		"category": "S2EBPR",
+		"color": "#8a18db"
+	},
+	"UB": {
+		"full_name": "Upper Blackstone",
+		"category": "EBPR",
+		"color": "#5c85d1"
+	},
+	"WR": {
+		"full_name": "Westside Regional",
+		"category": "S2EBPR",
+		"color": "#8a18db"
+	}
+}

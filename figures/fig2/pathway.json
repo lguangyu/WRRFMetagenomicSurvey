@@ -1,0 +1,224 @@
+[
+	{
+		"name": "polyP metabolism\nP transporter",
+		"genes": [
+			{
+				"name": "ppk",
+				"description": "polyphosphate kinase",
+				"kos": [
+					"K00937"
+				]
+			},
+			{
+				"name": "ppk2",
+				"description": "polyphosphate kinase 2",
+				"kos": [
+					"K22468"
+				]
+			},
+			{
+				"name": "ppx",
+				"description": "exopolyphosphatase",
+				"kos": [
+					"K01514",
+					"K01524"
+				]
+			},
+			{
+				"name": "pap",
+				"description": "polyp-AMP phosphotransferase",
+				"kos": [
+					"K23753"
+				]
+			},
+			{
+				"name": "pit",
+				"description": "inorganic phosphate transporter",
+				"kos": [
+					"K03306",
+					"K16322"
+				]
+			},
+			{
+				"name": "pst",
+				"description": "high-affinity phosphate transporter",
+				"kos": [
+					"K02036",
+					"K02037",
+					"K02038",
+					"K02039",
+					"K02040"
+				]
+			}
+		]
+	},
+	{
+		"name": "nitrogen\nmetabolism",
+		"modules": [
+			{
+				"name": "nitrification",
+				"display": "[P]nitri.",
+				"description": "nitrification (pathway)",
+				"mo": "M00528"
+			},
+			{
+				"name": "denitrification",
+				"display": "[P]denitri.",
+				"description": "denitrification (pathway)",
+				"mo": "M00529"
+			}
+		],
+		"genes": [
+			{
+				"name": "nar/nxr",
+				"description": "nitrate reductase",
+				"kos": [
+					"K00370",
+					"K00371",
+					"K00372",
+					"K00374"
+				]
+			},
+			{
+				"name": "nap",
+				"description": "nitrate reductase (cytochrome)",
+				"kos": [
+					"K02567",
+					"K02568"
+				]
+			},
+			{
+				"name": "nir",
+				"description": "nitrite reductase",
+				"kos": [
+					"K00362",
+					"K00363",
+					"K00368",
+					"K03385",
+					"K15864"
+				]
+			},
+			{
+				"name": "hao",
+				"description": "hydroxylamine dehydrogenase",
+				"kos": [
+					"K10535"
+				]
+			},
+			{
+				"name": "nos",
+				"description": "nitrous-oxide reductase",
+				"kos": [
+					"K00376"
+				]
+			},
+			{
+				"name": "hzs",
+				"description": "hydrazine synthase",
+				"kos": [
+					"K20932",
+					"K20933",
+					"K20934"
+				]
+			}
+		]
+	},
+	{
+		"name": "carbon\nmetabolism",
+		"modules": [
+			{
+				"name": "[P]EMP",
+				"description": "Embden-Meyerhof-Parnas pathway",
+				"mo": "M00001"
+			},
+			{
+				"name": "[P]ED",
+				"description": "Entner-Doudoroff pathway",
+				"mo": "M00008"
+			},
+			{
+				"name": "[P]TCA",
+				"description": "tricarbonic acid cycle",
+				"mo": "M00009"
+			},
+			{
+				"name": "[P]glyox.",
+				"description": "glyoxlate cycle",
+				"mo": "M00012"
+			},
+			{
+				"name": "[P]prop.",
+				"description": "propanoyl-CoA shunt",
+				"mo": "M00741"
+			}
+		],
+		"genes": [
+			{
+				"name": "icl",
+				"description": "isocitrate lyase",
+				"kos": [
+					"K01637"
+				]
+			},
+			{
+				"name": "gys",
+				"description": "glycogen synthase",
+				"kos": [
+					"K00693",
+					"K16150",
+					"K16153"
+				]
+			},
+			{
+				"name": "gp*",
+				"description": "glycogen phosphorylase",
+				"kos": [
+					"K00688",
+					"K16153"
+				]
+			},
+			{
+				"name": "ppgk",
+				"description": "polyphosphate glucokinase",
+				"kos": [
+					"K00886"
+				]
+			},
+			{
+				"name": "phaA",
+				"description": "acetyl-CoA C-acetyltransferase",
+				"kos": [
+					"K00626"
+				]
+			},
+			{
+				"name": "phaB",
+				"description": "acetoacetyl-CoA dehydrogenase",
+				"kos": [
+					"K00022",
+					"K00023",
+					"K00074",
+					"K00074",
+					"K01782",
+					"K01825",
+					"K07514",
+					"K07516"
+				]
+			},
+			{
+				"name": "phaC",
+				"description": "beta-polyhydroxyalkanoate synthase",
+				"kos": [
+					"K03821"
+				]
+			},
+			{
+				"name": "phaZ",
+				"description": "poly(3-hydroxybutyrate) depolymerase",
+				"kos": [
+					"K05973"
+				]
+			}
+		]
+	}
+]
